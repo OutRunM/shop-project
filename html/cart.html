@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>憨憨儿商城后台管理系统-购物车</title>
+    <link rel="stylesheet" href="../libs/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/cart.css">
+
+</head>
+<body>
+    <div id="cart">
+        <h2>憨憨儿购物车</h2>
+        <table class="table table-bordered">
+            <thead>
+                    <tr>
+                            <th>
+                                全选：<input type="checkbox" id="allCheck">
+                            </th>
+                            <th>商品ID</th>
+                            <th>商品名称</th>
+                            <th>商品单价</th>
+                            <th>商品数量</th>
+                        </tr>
+            </thead>
+           
+            <tbody>
+                
+            </tbody>
+        </table>
+        <div class="aBtn">
+                <span id="money">
+                        总价：￥<b></b>
+                </span>        
+                <button type="button" class="btn btn-warning delbtn">删除</button>
+                <button type="button" class="btn btn-danger purbtn">购买</button>
+                <button type="button" class="btn retbtn">返回首页</button>
+
+        </div>
+        
+    </div>
+    <script src="../js/cart.js"></script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+.nheader{width: 90%}
+.hdog{width: 10%;height: 7%;}
+.main table tbody input{width:50%;height: 17px;display: none;outline-style: none;}
+.main table td{width: 1%}
+.okbtn,.unbtn{display: none}
+
+.edit input{display: block !important;}
+.edit span{display: none;}
+.edit .editbtn,.edit .delbtn{display: none;}
+.edit .okbtn,.edit .unbtn{display: inline-block;}
+button{outline-style: none}
+
+.main{width: 90%;margin: 0 auto 10px;}
+
+#inlogin{display: none;}
+.navbar-brand{
+    padding-left:70px; 
+    background: url(../images/hdog.png) no-repeat;
+    background-size: 70px 50px;
+    
+}
+#cart{float: right;}
